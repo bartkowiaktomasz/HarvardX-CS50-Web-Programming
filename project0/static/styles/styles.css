@@ -1,0 +1,13 @@
+
+#navbarTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+
+#navbarTitleLogo {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: bold;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 30px;
+}
