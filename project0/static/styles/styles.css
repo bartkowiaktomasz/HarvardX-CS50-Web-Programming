@@ -1,13 +1,76 @@
 
-#navbarTitle {
+/* Navbar */
+#navbar-title {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
-#navbarTitleLogo {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-style: bold;
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: 30px;
+#nav-image-right {
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  width: 25px;
+  height: 25px;
+  filter: opacity(75%);
+}
+
+#nav-image-right:hover {
+  filter: invert(1) opacity(50%);
+}
+
+.nav-link {
+  font-size: 0.75rem;
+  color: darkgray;
+}
+
+.nav-pills > .nav-item > a.active,
+.nav-link:hover {
+  color: white;
+}
+
+.nav-pills > .nav-item > a.active {
+  background-color: #2c2d30;
+}
+
+
+/* About me */
+p {
+  font-size: 0.75rem;
+}
+
+#jumbo-no-margin {
+  margin-bottom: 0;
+}
+
+/* About me */
+.img-whole-width {
+  width: 100%;
+}
+
+.img-rounded {
+  width: 3rem;
+  border-radius: 10%;
+}
+
+#ul-about-me {
+  font-size: 0.75rem;
+}
+
+
+/* Custom page footer */
+.footer {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.footer-logo {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  margin: 0.25rem;
 }

@@ -21,17 +21,13 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" id="navbarTitle" href="#">Tomasz <b>Bartkowiak</b></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
+      <a class="navbar-brand" id="navbar-title" href="#">Tomasz <b>Bartkowiak</b></a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About me</a>
+            <a class="nav-link active" href="#">About me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
@@ -40,8 +36,94 @@
             <a class="nav-link" href="#">Tutoring</a>
           </li>
         </ul>
+      <div class="navbar-collapse collapse order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/bartkowiaktomasz"><img src="../static/images/facebook.svg" id="nav-image-right" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/bartkowiaktomasz"><img src="../static/images/github.svg" id="nav-image-right" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/in/bartkowiaktomasz"><img src="../static/images/linkedin.svg" id="nav-image-right" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://medium.com/@tomaszbartkowiak"><img src="../static/images/medium.svg" id="nav-image-right" alt=""></a>
+            </li>
+        </ul>
       </div>
     </nav>
+
+    <div class="jumbotron" id="jumbo-no-margin">
+      <h1 class="display-4">About me</h1>
+      <p class="lead">
+        My name is Tomasz Bartkowiak and I am Machine Learning Engineer at QuantumBlack, McKinsey&Company.
+      </p>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-3">
+          <img src="../static/images/photo.png" class="img-whole-width">
+        </div>
+        <div class="col-6">
+          <p class="lead my-0">About me</p>
+          <p class="text-justify">
+            My name is Tomasz Bartkowiak and I graduated from Imperial College London, where I did my
+            MSc degree in Computing Science, focusing on Machine Learning and Data Science.
+          </p>
+          <p class="lead my-0">Education</p>
+            <p class="text-justify">
+              <div class="row my-2">
+                <div class="col-1">
+                  <img src="../static/images/imperial.png" class="img-rounded">
+                </div>
+                <div class="col-11">
+                  <ul class="text-justify" id="ul-about-me">
+                    <li>Graduated (with Distinction) from Imperial College London with MSc degree in Computing Science.</li>
+                    <li>MSc Thesis on
+                      <a href="https://github.com/bartkowiaktomasz/Fitness-Activity-Classification-with-LSTMs">
+                        <i>Movement Classification using Recurrent Neural Networks.</i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </p>
+            <p class="lead my-0">Work experience</p>
+              <p class="text-justify">
+                <div class="row my-2">
+                  <div class="col-1">
+                    <img src="../static/images/qb.png" class="img-rounded">
+                  </div>
+                  <div class="col-11">
+                    <ul class="text-justify" id="ul-about-me">
+                      <li>Since December 2018 working as a Machine Learning Engineer at QuantumBlack, McKinsey&Company, London.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row my-2">
+                  <div class="col-1">
+                    <img src="../static/images/gs.png" class="img-rounded">
+                  </div>
+                  <div class="col-11">
+                    <ul class="text-justify" id="ul-about-me">
+                      <li>Worked as a Summer Intern and then as an Analyst in Technology division, Warsaw.</li>
+                    </ul>
+                  </div>
+                </div>
+              </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Tomasz Bartkowiak 2018</p>
+        <a href="https://www.facebook.com/bartkowiaktomasz"><img class="footer-logo" src="../static/images/facebook.svg"/></a>
+        <a href="https://github.com/bartkowiaktomasz"><img class="footer-logo" src="../static/images/github.svg"/></a>
+        <a href="https://www.linkedin.com/in/bartkowiaktomasz"><img class="footer-logo" src="../static/images/linkedin.svg"/></a>
+    </footer>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
